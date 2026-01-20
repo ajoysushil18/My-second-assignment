@@ -150,3 +150,47 @@ a {
 .btn-secondary {
   border: 1px solid #00FF88;
 }
+
+.about {
+  padding: 120px 0;
+  text-align: center;
+}
+
+.about-header h2 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.about-header p {
+  max-width: 600px;
+  margin: 0 auto 60px;
+  font-size: 16px;
+  line-height: 1.7;
+  opacity: 0.9;
+}
+
+/* Stats */
+.about-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.stat-card {
+  background: #251a3011;
+  padding: 36px 20px;
+  border-radius: 16px;
+}
+
+.stat-card h3 {
+  font-size: 32px;
+  margin-bottom: 8px;
+  color:#00FF88;
+}
+
+.stat-card span {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+
